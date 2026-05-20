@@ -1,0 +1,14 @@
+{
+  "model": "YOLOv8n",
+  "dataset": "merged_v1 (burhan_khan + ubaidp1049, deduped, 1255 images)",
+  "imgsz": 960,
+  "epochs_configured": 100,
+  "patience": 20,
+  "batch": 16,
+  "test_metrics": {
+    "mAP50": 0.9926262626262626,
+    "mAP50_95": 0.7677488885653803,
+    "precision": 0.9847962671031172,
+    "recall": 0.9525880275348894
+  }
+}
