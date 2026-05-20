@@ -1,0 +1,14 @@
+{
+  "model": "YOLOv8n",
+  "dataset": "burhan-khan/pk-number-plates v1 (1208 images)",
+  "imgsz": 960,
+  "epochs_configured": 100,
+  "patience": 20,
+  "batch": 16,
+  "test_metrics": {
+    "mAP50": 0.9915265512265513,
+    "mAP50_95": 0.7824486854741713,
+    "precision": 0.9625325887063735,
+    "recall": 0.9459459459459459
+  }
+}
