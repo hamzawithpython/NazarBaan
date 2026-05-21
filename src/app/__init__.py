@@ -1,0 +1,1 @@
+"""NazarBaan Streamlit gate application."""
