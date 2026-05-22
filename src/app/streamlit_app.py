@@ -55,8 +55,14 @@ st.markdown(
     """
     <style>
       .block-container { padding-top: 2rem; }
-      .stMetric { background: #f4f6f9; padding: 0.6rem; border-radius: 6px; }
-      .small-mono { font-family: monospace; font-size: 0.85rem; color: #444; }
+      .stMetric {
+        background: rgba(255, 255, 255, 0.04);
+        padding: 0.8rem 1rem;
+        border-radius: 8px;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .stMetric [data-testid="stMetricLabel"] { opacity: 0.85; }
+      .small-mono { font-family: monospace; font-size: 0.85rem; opacity: 0.75; }
     </style>
     """,
     unsafe_allow_html=True,
